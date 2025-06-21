@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Азиатский уголок</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<header>
+  <h1>Азиатский уголок</h1>
+  <nav>
+    <button data-section="home" class="active">Домашняя</button>
+    <button data-section="auth">Вход/Регистрация</button>
+    <button data-section="products">Продукты</button>
+    <button data-section="wallet">Кошелёк</button>
+    <button data-section="orders">Доставка/Покупки</button>
+    <button data-section="favorites">Избранные/Корзина</button>
+    <button data-section="sitemap">Карта сайта</button>
+    <button data-section="support">Тех Поддержка</button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="active">
+    <h2>Добро пожаловать в Азиатский уголок!</h2>
+    <p>Здесь вы найдете лучшие продукты из Азии, удобную доставку и поддержку.</p>
+    <div id="account-info" style="margin-top:25px; font-size: 18px; user-select: text;">
+      <em>Пожалуйста, войдите или зарегистрируйтесь, чтобы увидеть информацию о вашем аккаунте.</em>
+    </div>
+  </section>
+
+  
+  <section id="auth">
+    <h2>Вход / Регистрация</h2>
+    <div class="auth-toggle">
+      <button id="toggle-login" class="primary">Вход</button>
+      <button id="toggle-register">Регистрация</button>
+    </div>
+
+    <form id="login-form">
+      <label for="login-identifier">Почта или телефон:</label>
+      <input id="login-identifier" type="text" placeholder="Email или телефон" required />
+      <label for="login-password">Пароль:</label>
+      <input id="login-password" type="password" placeholder="Пароль" required />
+      <button type="submit" class="primary">Войти</button>
+    </form>
+
+    <form id="register-form" class="hidden">
+      <label for="register-name">Имя:</label>
+      <input id="register-name" type="text" placeholder="Ваше имя" required />
+      <label for="register-identifier">Почта или телефон:</label>
+      <input id="register-identifier" type="text" placeholder="Email или телефон" required />
+      <label for="register-password">Пароль:</label>
+      <input id="register-password" type="password" placeholder="Пароль" required />
+      <button type="submit" class="primary">Зарегистрироваться</button>
+    </form>
+    <p id="auth-message" class="message"></p>
+  </section>
+
+  
+  <section id="products">
+    <h2>Наши продукты</h2>
+    <div id="products-list" class="flex-row" aria-live="polite" aria-label="Список продуктов">
+
+    </div>
+  </section>
+
+  <section id="wallet">
+    <h2>Кошелёк</h2>
+    <p class="wallet-balance">Баланс: <span id="wallet-balance">0</span> ₽</p>
+    <label for="wallet-add-amount">Пополнить баланс (₽):</label>
+    <input id="wallet-add-amount" type="number" min="1" placeholder="Введите сумму" />
+    <button id="wallet-add-btn" class="primary">Пополнить</button>
+    <p id="wallet-message" class="message"></p>
+  </section>
+
+  <section id="orders">
+    <h2>Доставка и покупки</h2>
+    <div id="orders-list" aria-live="polite" aria-label="Список заказов">
+      <p>У вас пока нет заказов.</p>
+    </div>
+  </section>
+
+  <section id="favorites">
+    <h2>Избранные и корзина</h2>
+    <h3>Избранные товары</h3>
+    <div id="favorites-list" class="flex-row" aria-live="polite" aria-label="Избранные товары">
+      <p>Пока нет избранных товаров.</p>
+    </div>
+    <h3>Корзина</h3>
+    <div id="cart-list" class="flex-row" aria-live="polite" aria-label="Корзина">
+      <p>Корзина пуста.</p>
+    </div>
+    <button id="checkout-btn" class="primary" disabled>Оформить заказ</button>
+    <p id="cart-message" class="message"></p>
+  </section>
+
+  <section id="sitemap">
+  <h2>Карта сайта</h2>
+  <ul class="sitemap-list">
+    <li><button class="link-btn" data-section="home">Домашняя</button></li>
+    <li><button class="link-btn" data-section="auth">Вход/Регистрация</button></li>
+    <li><button class="link-btn" data-section="products">Продукты</button></li>
+    <li><button class="link-btn" data-section="wallet">Кошелёк</button></li>
+    <li><button class="link-btn" data-section="orders">Доставка/Покупки</button></li>
+    <li><button class="link-btn" data-section="favorites">Избранные/Корзина</button></li>
+    <li><button class="link-btn" data-section="support">Тех Поддержка</button></li>
+  </ul>
+</section>
+
+  <section id="support">
+    <h2>Техническая поддержка</h2>
+    <form id="support-form">
+      <label for="support-contact">Ваш email или телефон:</label>
+      <input id="support-contact" type="text" placeholder="Email или телефон" required />
+      <label for="support-message">Сообщение:</label>
+      <textarea id="support-message" rows="5" placeholder="Опишите вашу проблему" required></textarea>
+      <button type="submit" class="primary">Отправить</button>
+    </form>
+    <p id="support-response" class="message"></p>
+  </section>
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
