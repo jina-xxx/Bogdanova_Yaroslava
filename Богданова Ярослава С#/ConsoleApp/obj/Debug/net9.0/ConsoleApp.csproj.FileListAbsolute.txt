@@ -1,0 +1,30 @@
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\students.txt
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+c:\Users\Magnat_PC\Desktop\ConsoleApp\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\ConsoleApp.exe
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\students.txt
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\ConsoleApp.deps.json
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\ConsoleApp.runtimeconfig.json
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\bin\Debug\net9.0\ConsoleApp.pdb
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfoInputs.cache
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.AssemblyInfo.cs
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.csproj.CoreCompileInputs.cache
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\refint\ConsoleApp.dll
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.pdb
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ConsoleApp.genruntimeconfig.cache
+c:\Users\Magnat_PC\Desktop\Богданова Ярослава\ConsoleApp\obj\Debug\net9.0\ref\ConsoleApp.dll
